@@ -108,6 +108,9 @@ p {
   width: 16%;
 }
 
+.quote {
+  margin: 0px auto 40px auto;
+}
 .reading {
   text-align: left;
   margin: 20px 100px;

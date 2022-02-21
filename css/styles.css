@@ -2,6 +2,7 @@ body {
   background: #fbf8f1;
   color: #07817f;
   font-family: "Raleway", sans-serif;
+  font-size: 1.25em;
   margin: 0;
   text-align: center;
 }
@@ -30,17 +31,17 @@ p {
 /*All Images for HomePage are here*/
 .board-game-img {
   width: 8%;
-  float: right;
+  float: left;
   margin: auto 20px auto 20px;
 }
 .book-stack-img {
   width: 8%;
-  float: right;
+  float: left;
   margin: auto 20px auto 20px;
 }
 .coding-img {
   width: 8%;
-  float: right;
+  float: left;
   margin: auto 20px auto 20px;
 }
 .project-img {
@@ -52,6 +53,11 @@ p {
 .about {
   margin: 0;
 }
+
+.app-project {
+  font-size: 1.25em;
+}
+
 .career {
   text-align: left;
   margin: 20px 100px;
@@ -82,8 +88,9 @@ p {
 
 .projects {
   line-height: 2;
-  margin: 10px auto;
   font-family: "Raleway", sans-serif;
+  margin: 10px auto;
+
   width: 40%;
 }
 
@@ -97,4 +104,8 @@ p {
 .reading {
   text-align: left;
   margin: 20px 100px;
+}
+
+.web-project {
+  font-size: 1.25em;
 }

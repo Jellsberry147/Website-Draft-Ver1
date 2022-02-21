@@ -52,6 +52,9 @@ p {
 /*All Classes are here*/
 .about {
   margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .app-project {
@@ -65,13 +68,6 @@ p {
 
 .contact {
   margin: 0px auto 80px auto;
-}
-
-.contact-hr {
-  border: dotted #e9dac1;
-  border-bottom: none;
-  margin: 40px auto;
-  width: clamp(10%, 40%, 80%);
 }
 
 .flex {
@@ -104,13 +100,6 @@ p {
   font-family: "Raleway", sans-serif;
   margin: 10px auto;
   width: clamp(20%, 60%, 1000px);
-}
-
-.projecthr {
-  border: dotted #f7ecde;
-  border-bottom: none;
-  margin: 50px auto;
-  width: clamp(10%, 20%, 40%);
 }
 
 .quote {
